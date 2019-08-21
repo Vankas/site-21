@@ -1,4 +1,4 @@
-@media screen and (min-width:319px) and (max-width: 1024px) {
+@media screen and (min-width:319px) and (max-width: 1199px) {
     .mob__header {
         display: flex !important;
     }
@@ -7,7 +7,7 @@
     }
 }
 
-@media screen and (min-width:1119px) {
+@media screen and (min-width:1200px) {
     .mob__header {
         display: none;
     }

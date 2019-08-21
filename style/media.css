@@ -1,4 +1,7 @@
-@media only screen and (min-width: 319px) and (max-width: 1025px) {
+@media only screen and (min-width: 319px) and (max-width: 1199px) {
+    .video-box .column .row {
+        justify-content: center;
+    }
     .video-box .button-1 {
         width: 300px;
         height: 150px;
@@ -24,6 +27,88 @@
     }
     .video-box button {
         margin-bottom: 20px;
+    }
+    .video_title {
+        font-size: 30px;
+    }
+    .footer__wrapp {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer__content {
+        flex-direction: column;
+        width: 300px;
+    }
+    .footer__content_info {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .footer__content_info_row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer__content_map {
+        width: 290px;
+        box-shadow: 0px 0px 6px 2px #007bff;
+    }
+    .footer__content_col-1 {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer__content_col-2 {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .d-flex {
+        text-align: center;
+    }
+    .intro__content_box {
+        width: 300px;
+    }
+    .intro__content_box_row-1__title {
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .intro__content_box_row-1__title h1 {
+        line-height: 35px;
+        font-size: 26px;
+        height: auto;
+    }
+    .intro__content_box_row-1__desc li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .intro__content_box_col-2 {
+        margin-bottom: 25px;
+        width: 300px;
+        margin-top: 40px;
+    }
+    .intro__content_box_form {
+        width: 280px;
+    }
+    .intro__content_box_form_title span {
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+    .intro__content_box_form_pretitle span {
+        font-size: 14px;
+    }
+    .intro__content_box_form_btn {
+        margin-top: 25px;
+    }
+    .intro__content_box_form_checkbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .services__card img {
+        height: auto;
+        width: 300px;
+    }
+    .section__title h1 {
+        font-size: 42px;
+        line-height: 50px;
     }
 }
 
@@ -85,6 +170,83 @@
     }
     .container-box__price_img img:not(:last-child) {
         margin-bottom: 10px;
+    }
+    .footer__wrapp {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer__content {
+        flex-direction: column;
+        width: 300px;
+    }
+    .footer__content_info {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .footer__content_info_row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer__content_map {
+        width: 290px;
+        box-shadow: 0px 0px 6px 2px #007bff;
+    }
+    .footer__content_col-1 {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer__content_col-2 {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .d-flex {
+        text-align: center;
+    }
+    .intro__content_box {
+        width: 300px;
+    }
+    .intro__content_box_row-1__title {
+        height: auto;
+        margin-bottom: 25px;
+    }
+    .intro__content_box_row-1__title h1 {
+        line-height: 35px;
+        font-size: 26px;
+        height: auto;
+    }
+    .intro__content_box_row-1__desc li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .intro__content_box_col-2 {
+        width: 300px;
+        margin-top: 40px;
+    }
+    .intro__content_box_form {
+        width: 280px;
+    }
+    .intro__content_box_form_title span {
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+    .intro__content_box_form_pretitle span {
+        font-size: 14px;
+    }
+    .intro__content_box_form_btn {
+        margin-top: 25px;
+    }
+    .intro__content_box_form_checkbox {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .services__card img {
+        height: auto;
+        width: 300px;
+    }
+    .section__title h1 {
+        font-size: 42px;
     }
 }
 
