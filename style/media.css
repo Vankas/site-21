@@ -2,37 +2,28 @@
     .video-box .button-1 {
         width: 300px;
         height: 150px;
-        background-image: url(../img/Main/Video/1.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .video-box .button-2 {
         width: 300px;
         height: 150px;
-        background-image: url(../img/Main/Video/2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .video-box .button-3 {
         width: 300px;
         height: 150px;
-        background-image: url(../img/Main/Video/3.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .video-box .button-4 {
         width: 300px;
         height: 150px;
-        background-image: url(../img/Main/Video/4.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }
     .video-box .button-5 {
         width: 300px;
         height: 150px;
-        background-image: url(../img/Main/Video/5.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+    .video-box {
+        flex-wrap: wrap;
+    }
+    .video-box button {
+        margin-bottom: 20px;
     }
 }
 

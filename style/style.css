@@ -316,6 +316,7 @@ body {
     background-image: url(../img/Main/Video/1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video-box .button-2 {
@@ -324,6 +325,7 @@ body {
     background-image: url(../img/Main/Video/2.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video-box .button-3 {
@@ -332,6 +334,7 @@ body {
     background-image: url(../img/Main/Video/3.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video-box .button-4 {
@@ -340,6 +343,7 @@ body {
     background-image: url(../img/Main/Video/4.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video-box .button-5 {
@@ -348,6 +352,7 @@ body {
     background-image: url(../img/Main/Video/5.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .video-box button {

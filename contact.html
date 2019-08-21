@@ -2,18 +2,20 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Порошковая покраска в Рязани</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="style/fonts.css" type="text/css">
-  <link rel="stylesheet" href="style/owl.carousel.css">
-  <link rel="stylesheet" href="style/owl.theme.default.min.css">
-  <link rel="stylesheet" type="text/css" href="./style/fontawesome-all.css">
-  <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Порошковая покраска в Рязани</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/fonts.css" type="text/css">
+    <link rel="stylesheet" href="style/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/media.css">
+    <link rel="stylesheet" type="text/css" href="./style/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="./style/mobile_header.css">
 
 
 
@@ -21,165 +23,228 @@
 
 <body>
 
-  <div class="intro">
-    <header class="header">
-      <div class="header__logo">
-        <img src="img/logo.png" alt="">
-      </div>
-      <div class="header__nav">
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="about-us.html">О нас</a></li>
-          <li><a href="fotogallery.html">Галерея</a></li>
-          <li><a href="services.html">Услуги</a></li>
-          <li><a href="price.html">Цены</a></li>
-          <li><a href="contact.html">Контакты</a></li>
-        </ul>
-      </div>
-      <div class="header__worktime">
-        <div class="header__worktime_time">
-          <i id="time" class="fal fa-clock"></i>
-          <span id="header__worktime_time">9:00 - 19:00</span>
+    <header class="mob__header">
+        <div class="mob_header__logo">
+            <a href="index.html">
+                <img class="mob__logo" src="img/logo.png" />
+            </a>
         </div>
-        <div class="header__worktime_text">
-          <span id="header__worktime_text">Без выходных</span>
-        </div>
-      </div>
-      <div class="header__contacts">
-        <div class="header__contacts_phone">
-          <div class="icon_phone">
 
-          <i id="phone" class="fas fa-phone-volume"></i>
+        <nav id="nav-mobile" class="nav-mobile" role="navigation">
+            <ul class="nav-mobile__menu" id="nav-mobile-menu" tabindex="-1" aria-label="main navigation" hidden>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Главная</a></li>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">О нас</a></li>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Галерея</a></li>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Услуги</a></li>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Цены</a></li>
+                <li class="nav-mobile__item"><a href="#" class="nav-mobile__link">Контакты</a></li>
+            </ul>
 
-          </div>
+            <!-- MENU TOGGLE BUTTON -->
+            <a class="nav-mobile__toggle" role="button" aria-expanded="false" aria-controls="menu">
+                <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+            <g>
+              <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+              <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+              <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+            </g>
+          </svg>
+            </a>
 
-          <a href="tel:89691969994">
-            <p>+7 (900) 609-60-04</p>
-          </a>
-        </div>
-        <div class="header__contacts_viber">
-          <i id="viber" class="fab fa-viber"></i>
-          <a href="viber://pa?chatURI=+79006096004&text=привет">
-            <p>+7 (900) 609-60-04</p>
-          </a>
-        </div>
-        <div class="header__contacts_whats">
-          <div class="icon_whats">
-            <i id="whats" class="fab fa-whatsapp"></i>
-          </div>
-
-
-
-          <a href="https://wa.me/79006096004?text=Напишите_нам!" target="_blank">
-            <p>+7 (900) 609-60-04</p>
-          </a>
-        </div>
-      </div>
+            <!-- ANIMATED BACKGROUND ELEMENT -->
+            <div class="splash"></div>
+        </nav>
 
     </header>
-<div class="intro__content_wrapp">
-<div class="intro__content_box">
-<div class="intro__content_box_row-1">
+
+    <!-- Начало header + блок интро -->
+    <div class="intro">
+        <header class="header">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about-us.html">О нас</a></li>
+                    <li><a href="fotogallery.html">Галерея</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="price.html">Цены</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header__worktime">
+                <div class="header__worktime_time">
+                    <i id="time" class="fal fa-clock"></i>
+                    <span id="header__worktime_time">9:00 - 19:00</span>
+                </div>
+                <div class="header__worktime_text">
+                    <span id="header__worktime_text">Без выходных</span>
+                </div>
+            </div>
+            <div class="header__contacts">
+                <div class="header__contacts_phone">
+                    <div class="icon_phone">
+                        <i id="phone" class="fas fa-phone-volume"></i>
+                    </div>
+                    <a href="tel:89691969994">
+                        <p>+7 (900) 609-60-04</p>
+                    </a>
+                </div>
+                <div class="header__contacts_viber">
+                    <i id="viber" class="fab fa-viber"></i>
+                    <a href="viber://pa?chatURI=+79006096004&text=привет">
+                        <p>+7 (900) 609-60-04</p>
+                    </a>
+                </div>
+                <div class="header__contacts_whats">
+                    <div class="icon_whats">
+                        <i id="whats" class="fab fa-whatsapp"></i>
+                    </div>
+                    <a href="https://wa.me/79006096004?text=Напишите_нам!" target="_blank">
+                        <p>+7 (900) 609-60-04</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <div class="intro__content_wrapp">
+            <div class="intro__content_box">
+                <div class="intro__content_box_col-1">
+                    <div class="intro__content_box_row-1__title">
+                        <h1>Порошковая покраска дисков в Рязани</h1>
+                    </div>
+                    <div class="intro__content_box_row-1__desc">
+                        <ul class="about-us_ul-1">
+                            <li class="text">Собственный цех</li>
+                            <li class="text">Порошковая покраска</li>
+                            <li class="text">Покраска дисков в два цвета</li>
+                            <li class="text">Пескоструйная обработка</li>
+                            <li class="text">Антикорозийная обработка</li>
+                            <li class="text">Покраска дисков с кантом</li>
+                            <li class="text">Европейская технология</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="intro__content_box_col-2">
+                    <div class="intro__content_box_form">
+                        <div class="intro__content_box_form_title">
+                            <span>Оставьте заявку на бесплатную консультацию мастера</span>
+                        </div>
+                        <div class="intro__content_box_form_pretitle">
+                            <span>Менеджер перезвонит Вам, чтобы уточнить <br> детали и ответить на Ваши вопросы.</span>
+                        </div>
+                        <div class="intro__content_box_form_inputs">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Номер телефона">
+                            <input type="text" placeholder="E-mail">
 
 
-</div>
-  <div class="intro__content_box_row-2">
+                        </div>
 
-  </div>
+                        <div class="intro__content_box_form_btn">
+                            <button>Отправить заявку</button>
+                        </div>
+                        <div class="intro__content_box_form_checkbox">
+                            <input type="checkbox" name="option" value="a1" checked>Даю согласие на обработку<a href="privacy-policy.html"><i>&nbspперсональных данных</i></a>
+                        </div>
+
+                    </div>
 
 
 
-
-</div>
-
-
-</div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
     <footer>
 
-      <div class="footer__wrapp">
-        <div class="footer__content">
-        <div class="footer__content_info">
-          <div class="footer__content_col-1_title">
-            <span>контакты</span>
+        <div class="footer__wrapp">
+            <div class="footer__content">
+                <div class="footer__content_info">
+                    <div class="footer__content_col-1_title">
+                        <span>контакты</span>
 
-          </div>
-          <div class="footer__content_info_row">
-          <div class="footer__content_col-1">
-            <div class="footer__content_box">
-              <div class="footer__content_box_title">
-                <span>АДРЕС</span>
-              </div>
-              <div class="footer__content_box_desc">
-                <img src="./img/address.png" alt="">
-                <span>г. Рязань, ул Западная 6</span>
-              </div>
-            </div>
-            <div class="footer__content_box">
-              <div class="footer__content_box_title">
-                <span>ТЕЛЕФОН</span>
-              </div>
-              <div class="footer__content_box_desc">
-                <i id="footer_phone" class="fas fa-phone-alt"></i>
-                <span>+7 (900) 609-60-04</span>
-              </div>
-            </div>
-          </div>
-          <div class="footer__content_col-2">
-            <div class="footer__content_box">
-              <div class="footer__content_box_title">
-                <span>ВРЕМЯ РАБОТЫ</span>
-              </div>
-              <div class="footer__content_box_desc">
-                <i id="time" class="fal fa-clock"></i>
-                <span>С 9:00 до 19:00 Без выходных</span>
-              </div>
-            </div>
-            <div class="footer__content_box">
-              <div class="footer__content_box_title">
-                <span>МЫ В СОЦ СЕТЯХ</span>
-              </div>
-              <div class="footer__content_box_desc">
-                <div class="footer_icon_row">
-                  <div class="footer_icon_box">
-                    <i class="fab fa-vk"></i>
-                  </div>
-                  <div class="footer_icon_box">
-                    <i class="fab fa-instagram"></i>
-                  </div>
-                  <div class="footer_icon_box">
-                    <i class="fab fa-odnoklassniki"></i>
-                  </div>
-                  <div class="footer_icon_box">
-                    <i class="fab fa-youtube"></i>
-                  </div>
+                    </div>
+                    <div class="footer__content_info_row">
+                        <div class="footer__content_col-1">
+                            <div class="footer__content_box">
+                                <div class="footer__content_box_title">
+                                    <span>АДРЕС</span>
+                                </div>
+                                <div class="footer__content_box_desc">
+                                    <img src="./img/address.png" alt="">
+                                    <span>г. Рязань, ул Западная 6</span>
+                                </div>
+                            </div>
+                            <div class="footer__content_box">
+                                <div class="footer__content_box_title">
+                                    <span>ТЕЛЕФОН</span>
+                                </div>
+                                <div class="footer__content_box_desc">
+                                    <i id="footer_phone" class="fas fa-phone-alt"></i>
+                                    <span>+7 (900) 609-60-04</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__content_col-2">
+                            <div class="footer__content_box">
+                                <div class="footer__content_box_title">
+                                    <span>ВРЕМЯ РАБОТЫ</span>
+                                </div>
+                                <div class="footer__content_box_desc">
+                                    <i id="time" class="fal fa-clock"></i>
+                                    <span>С 9:00 до 19:00<br> Без выходных</span>
+                                </div>
+                            </div>
+                            <div class="footer__content_box">
+                                <div class="footer__content_box_title">
+                                    <span>МЫ В СОЦ СЕТЯХ</span>
+                                </div>
+                                <div class="footer__content_box_desc">
+                                    <div class="footer_icon_row">
+                                        <div class="footer_icon_box">
+                                            <i class="fab fa-vk"></i>
+                                        </div>
+                                        <div class="footer_icon_box">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                        <div class="footer_icon_box">
+                                            <i class="fab fa-odnoklassniki"></i>
+                                        </div>
+                                        <div class="footer_icon_box">
+                                            <i class="fab fa-youtube"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="footer__content_map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3c9348f5acbbe5306bdeb1deee7111e54846b0fff4587953f908a28a07a1f4d1&amp;source=constructor" width="605" height="430" frameborder="0"></iframe>
+
+                </div>
             </div>
 
-          </div>
-          </div>
+        </div><br>
+        <div class="d-flex justify-content-center">
+            <p>Сайт создан PR-tovar / <a href="privacy-policy.html">Политика конфиденциальности</a></p>
         </div>
-        <div class="footer__content_map">
-          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A3c9348f5acbbe5306bdeb1deee7111e54846b0fff4587953f908a28a07a1f4d1&amp;source=constructor" width="605" height="430" frameborder="0"></iframe>
-
-        </div>
-        </div>
-
-      </div>
-    <p>Сайт создан PR-tovar   /   <a href="privacy-policy.html">Политика конфиденциальности</a></p>
 
     </footer>
 
 
+    <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/nav-mobile.js"></script>
     <script src="js/owl.carousel.js"></script>
+</body>
 
-
-    <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
-    </body>
-
-    </html>
+</html>

@@ -131,6 +131,13 @@
         z-index: 5;
         visibility: hidden;
     }
+    .nav-mobile__menu {
+        padding: 0;
+        margin: 0;
+    }
+    .nav-mobile__menu li {
+        list-style: none;
+    }
     .nav-mobile__item {
         opacity: 0;
         transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.3s;
@@ -207,7 +214,7 @@
         display: block;
         position: absolute;
         border-radius: 50%;
-        background-color: #006baf;
+        background-color: #1f2930;
         width: 284vmax;
         height: 284vmax;
         top: -142vmax;
